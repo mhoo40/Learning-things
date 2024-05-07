@@ -13,7 +13,7 @@
 		"attackSound": "phasers"
 	},
 	{
-		"name": "Shield Guard",
+		"name": "Armored Guard",
 		"unitType": "Defender",
 		//"movement": 1,
 		"movement": 10,
