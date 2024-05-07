@@ -86,7 +86,7 @@
 	},
 	{
 	"name": "Arts II",
-	"prerequisites": ["Originiums Arts I"],
+	"prerequisites": ["Arts I"],
 	"uniques": ["[+15]% Strength","[+30]% Strength <vs [Armored] units>"],
 	"unitTypes": ["Caster"]
 	},
