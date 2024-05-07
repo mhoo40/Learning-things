@@ -1,7 +1,7 @@
 [
 	//GlobalUnits
 	{
-		"name": "Caster",
+		"name": "Art Caster",
 		"unitType": "Caster",
 		"movement": 1,
 		"range": 2,
