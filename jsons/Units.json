@@ -34,4 +34,43 @@
 		"cost": 0,
 		"attackSound": "metalhit"
 	},
+	//Reunion Units
+	{
+		"name": "Crownslayer",
+		"unitType": "Assassin",
+		"uniqueTo": "Reunion",
+		//"movement": 5,
+		"movement": 10,
+		"strength": 20,
+		//"cost": 400,
+		"cost": 0,
+		//"requiredTech": "Iron Working",
+		"uniques": [
+		"[+5] HP when healing <in [Foreign Land] tiles>",
+		"Uncapturable",
+		"Never appears as a Barbarian unit",
+		"Limited to [1] per Civilization",
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Frost Nova",
+		"unitType": "Caster",
+		"uniqueTo": "Reunion",
+		//"movement": 2,
+		"movement": 10,
+		"range": 4,
+		"strength": 30,
+		"rangedStrength": 30,
+		//"cost": 600,
+		"cost": 0,
+		//"requiredTech": "Astronomy",
+		"uniques": [
+		"[1] additional attacks per turn",
+		"Uncapturable",
+		"Never appears as a Barbarian unit",
+		"Limited to [1] per Civilization",
+		],
+		"attackSound": "phasers"
+	},
 ]
