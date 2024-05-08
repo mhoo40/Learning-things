@@ -71,7 +71,6 @@
 	        "strength": 5,
 	        "cost": 25,
 	        "obsoleteTech": "Steam Power",
-	        "upgradesTo": "Airship",
 	        "uniques": [
 		"Cannot attack",
 		"Ignore terrain cost"
