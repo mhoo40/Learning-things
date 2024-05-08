@@ -93,7 +93,7 @@
             	"[+25]% Strength <vs [Caster] units>"
         	],
 		//"requiredTech": "Horseback Riding",	
-		"obsoleteTech": "Chilvary",
+		"obsoleteTech": "Chilvalry",
 		"attackSound": "metalhit"
 	},
 	{
