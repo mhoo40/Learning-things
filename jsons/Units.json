@@ -65,7 +65,7 @@
 		"name": "Dummy",
 		"unitType": "Archery",
 		"movement": 15,
-		"strength": 300,
+		"strength": 250,
 		"cost": 0,
 		"uniques": [
 		"Never appears as a Barbarian unit",
@@ -175,7 +175,7 @@
 		//"requiredTech": "Atomic Theory",
 		"uniques": [
 		"Can carry [1] [Patriot's Spear] units",
-		"[1] additional attacks per turn <when adjacent to a [Patriot's Spear] unit>",
+		"[1] additional attacks per turn <in [in all cities] cities>",
 		"[+30]% Strength <when adjacent to a [Patriot's Spear] unit>",
 		"[+30]% Strength <when defending>",
 		"Uncapturable",
