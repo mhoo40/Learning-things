@@ -164,8 +164,8 @@
 		"uniques": [
 		"Can carry [1] [Patriot's Spear] units",
 		"[1] additional attacks per turn <when adjacent to a [Patriot's Spear] unit>",
-		"[+30%] Strength <when adjacent to a [Patriot's Spear] unit>",
-		"[+30%] Strength <when defending>",
+		"[+30]% Strength <when adjacent to a [Patriot's Spear] unit>",
+		"[+30]% Strength <when defending>",
 		"Uncapturable",
 		"Never appears as a Barbarian unit",
 		"Limited to [1] per Civilization",
@@ -184,9 +184,10 @@
 		"cost": 0,
 		//"requiredTech": "Atomic Theory",
 		"uniques": [
-		"Cannot attack <when adjacent to a [City] unit>",
+		"Cannot attack <in [City center] tiles>",
 		"Cannot be intercepted",
 		"Limited to [1] per Civilization",
+		"Cannot be purchased",
 		],
 		"attackSound": "metalhit"
 	},
