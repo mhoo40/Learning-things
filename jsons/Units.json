@@ -61,6 +61,18 @@
 		"cost": 0,
 		"attackSound": "metalhit"
 	},
+	{
+		"name": "Dummy",
+		"unitType": "Archery",
+		"movement": 15,
+		"strength": 300,
+		"cost": 0,
+		"uniques": [
+		"Never appears as a Barbarian unit",
+		"Limited to [1] per Civilization",
+		],
+		"attackSound": "metalhit"
+	},
 	//Reunion Units
 	{
 	        "name": "Wrath",
