@@ -9,7 +9,21 @@
 		"rangedStrength": 12,
 		//"cost": 70,
 		"cost": 0,
+		"upgradesTo": "Elite Caster",
 		//"requiredTech": "Writing",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "phasers"
+	},
+	{
+		"name": "Elite Caster",
+		"unitType": "Caster",
+		"movement": 2,
+		"range": 3,
+		"strength": 15,
+		"rangedStrength": 20,
+		//"cost": 180,
+		"cost": 0,
+		//"requiredTech": "Education",
 		"attackSound": "phasers"
 	},
 	{
@@ -20,7 +34,20 @@
 		"strength": 10,
 		//"cost": 140,
 		"cost": 0,
+		"upgradesTo": "Elite Shielder",
 		//"requiredTech": "Bronze Working",	
+		"obsoleteTech": "Steel",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Elite Shielder",
+		"unitType": "Defender",
+		//"movement": 1,
+		"movement": 10,
+		"strength": 17,
+		//"cost": 260,
+		"cost": 0,
+		//"requiredTech": "Metal Casting",	
 		"obsoleteTech": "Military Science",
 		"attackSound": "metalhit"
 	},
@@ -36,13 +63,65 @@
 	},
 	//Reunion Units
 	{
+	        "name": "Wrath",
+	        "replaces": "Scout",
+	        "uniqueTo": "Reunion",
+	        "unitType": "Scout",
+	        "movement": 3,
+	        "strength": 5,
+	        "cost": 25,
+	        "obsoleteTech": "Steam Power",
+	        "upgradesTo": "Airship",
+	        "promotions": [
+			"Cannot attack",
+			"Ignore terrain cost"
+		],
+	        "attackSound": "arrow"
+    	},
+	{
+		"name": "Sarkaz Soldier",
+		"replaces": "Horseman",
+	        "uniqueTo": "Reunion",
+		"unitType": "Armored",
+		//"movement": 3,
+		"movement": 10,
+		"strength": 15,
+		//"cost": 90,
+		"cost": 0,
+		"uniques": [
+            	"Can move after attacking",
+            	"[+25]% Strength <vs [Caster] units>"
+        	],
+		//"requiredTech": "Horseback Riding",	
+		"obsoleteTech": "Chilvary",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Revenger",
+		"replaces": "Longswordsman",
+	        "uniqueTo": "Reunion",
+		"unitType": "Sword",
+		//"movement": 2,
+		"movement": 10,
+		"strength": 23,
+		//"cost": 140,
+		"cost": 0,
+		"uniques": [
+            	"[-30]% Strength <when above [50] HP>",
+            	"[+50]% Strength <when below [50] HP>"
+        	],
+		//"requiredTech": "Steel",	
+		"obsoleteTech": "Military Science",
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Crownslayer",
 		"unitType": "Assassin",
 		"uniqueTo": "Reunion",
 		//"movement": 5,
 		"movement": 10,
 		"strength": 20,
-		//"cost": 400,
+		//"cost": 300,
 		"cost": 0,
 		//"requiredTech": "Iron Working",
 		"uniques": [
@@ -62,7 +141,7 @@
 		"range": 4,
 		"strength": 30,
 		"rangedStrength": 30,
-		//"cost": 600,
+		//"cost": 500,
 		"cost": 0,
 		//"requiredTech": "Astronomy",
 		"uniques": [
@@ -72,5 +151,45 @@
 		"Limited to [1] per Civilization",
 		],
 		"attackSound": "phasers"
+	},
+	{
+		"name": "Patriot",
+		"unitType": "Armored",
+		"uniqueTo": "Reunion",
+		//"movement": 1,
+		"movement": 10,
+		"strength": 230,
+		//"cost": 1200,
+		"cost": 0,
+		//"requiredTech": "Atomic Theory",
+		"uniques": [
+		"Can carry [1] [Patriot's Spear] units",
+		"[1] additional attacks per turn <when adjacent to a [Patriot's Spear] unit>",
+		"[+30%] Strength <when adjacent to a [Patriot's Spear] unit>",
+		"[+30%] Strength <when defending>",
+		"Uncapturable",
+		"Never appears as a Barbarian unit",
+		"Limited to [1] per Civilization",
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Patriot's Spear",
+		"unitType": "Missile",
+		"uniqueTo": "Reunion",
+		"movement": 1,
+		"range": 4,
+		"strength": 200,
+		"rangedStrength": 200,
+		//"cost": 800,
+		"cost": 0,
+		//"requiredTech": "Atomic Theory",
+		"uniques": [
+		"Cannot attack <when adjacent to a [City] unit>",
+		"[+30%] Strength <when defending>",
+		"Cannot be intercepted",
+		"Limited to [1] per Civilization",
+		],
+		"attackSound": "metalhit"
 	},
 ]
