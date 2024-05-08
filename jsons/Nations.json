@@ -24,7 +24,9 @@
 		"uniqueName": "The Oppressed",
 		"uniques": ["[+1 Production, +1 Faith] per [3] population [in all cities]", 
 			"[+15]% Production when constructing [Military] buildings [in all cities]",
-			"Earn [50]% of killed [All] unit's [Strength] as [Gold]"
+			"Earn [50]% of killed [All] unit's [Strength] as [Gold]",
+			"[+50]% City-State Influence degradation",
+			"Gifts of Gold to City-States generate [-50]% more Influence",
 		],
 		"cities": ["Reunion's HQ", "Chernobog", "Liberation Fronts","Reunion's Camp","Rebel Outpost","Scavenger Holds","Spearhead Garrison","Forsaken Workgrounds",
 			"Rebel Camps","Dispossessed Havens","FrostNova's Yeti Squadron","Patriot's Guerrillas Group","My backyard","Undercity Networks","Desolation Plains","Abandoned City","Talulah Cult","Tomatulah the City",
