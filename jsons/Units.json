@@ -72,9 +72,9 @@
 	        "cost": 25,
 	        "obsoleteTech": "Steam Power",
 	        "upgradesTo": "Airship",
-	        "promotions": [
-			"Cannot attack",
-			"Ignore terrain cost"
+	        "uniques": [
+		"Cannot attack",
+		"Ignore terrain cost"
 		],
 	        "attackSound": "arrow"
     	},
@@ -186,7 +186,6 @@
 		//"requiredTech": "Atomic Theory",
 		"uniques": [
 		"Cannot attack <when adjacent to a [City] unit>",
-		"[+30%] Strength <when defending>",
 		"Cannot be intercepted",
 		"Limited to [1] per Civilization",
 		],
