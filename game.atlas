@@ -4,6 +4,13 @@ size: 2048,2048
 format: RGBA8888
 filter: MipMapLinearLinear,MipMapLinearLinear
 repeat: none
+UnitIcons/Wrath
+  rotate: false
+  xy: 800, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Art Caster
   rotate: false
   xy: 0, 0
@@ -11,9 +18,37 @@ UnitIcons/Art Caster
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Elite Caster
+  rotate: false
+  xy: 100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Armored Guard
   rotate: false
   xy: 400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elite Shielder
+  rotate: false
+  xy: 500, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sarkaz Soldier
+  rotate: false
+  xy: 900, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Revenger
+  rotate: false
+  xy: 1000, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -32,11 +67,32 @@ UnitIcons/Crownslayer
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Patriot
+  rotate: false
+  xy: 300, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Patriot's Spear
+  rotate: false
+  xy: 400, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 NationIcons/Reunion
   rotate: false
   xy: 0, 100
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Wrath
+  rotate: false
+  xy: 400, 1000
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Art Caster
@@ -46,9 +102,37 @@ TileSets/FantasyHex/Units/Art Caster
   orig: 50, 50
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Elite Caster
+  rotate: false
+  xy: 100, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Armored Guard
   rotate: false
   xy: 50, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Elite Shielder
+  rotate: false
+  xy: 150, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sarkaz Soldier
+  rotate: false
+  xy: 450, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Revenger
+  rotate: false
+  xy: 550, 1000
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -63,6 +147,13 @@ TileSets/FantasyHex/Units/Frost Nova
 TileSets/FantasyHex/Units/Crownslayer
   rotate: false
   xy: 100, 1050
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Patriot
+  rotate: false
+  xy: 200, 1050
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
