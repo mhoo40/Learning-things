@@ -74,22 +74,22 @@
 		"attackSound": "metalhit"
 	},
 	//Reunion Units
-	{
-	        "name": "Wrath",
-	        "replaces": "Scout",
-	        "uniqueTo": "Reunion",
-	        "unitType": "Scout",
-	        "movement": 3,
-	        "strength": 5,
-	        //"cost": 25,
-		"cost": 0,
-	        "obsoleteTech": "Steam Power",
-	        "uniques": [
-		"Cannot attack",
-		"All tiles cost 1 movement",
-		],
-	        "attackSound": "arrow"
-    	},
+	//{
+	 //       "name": "Wrath",
+	 //       "replaces": "Scout",
+	  //      "uniqueTo": "Reunion",
+	  //      "unitType": "Scout",
+	 //       "movement": 3,
+	  //      "strength": 5,
+	 //       //"cost": 25,
+	//	"cost": 0,
+	 //       "obsoleteTech": "Steam Power",
+	 //       "uniques": [
+	//	"Cannot attack",
+	//	"All tiles cost 1 movement",
+	//	],
+	 //       "attackSound": "arrow"
+    //	},
 	{
 		"name": "Sarkaz Soldier",
 		"replaces": "Horseman",
