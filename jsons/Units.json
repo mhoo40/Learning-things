@@ -47,9 +47,6 @@
 		"strength": 17,
 		//"cost": 260,
 		"cost": 0,
-		"uniques": [
-		"Damage is ignored when determining unit Strength",
-		],
 		//"requiredTech": "Metal Casting",	
 		"obsoleteTech": "Military Science",
 		"attackSound": "metalhit"
@@ -216,7 +213,7 @@
 		//"requiredTech": "Atomic Theory",
 		"uniques": [
 		"[1] additional attacks per turn",
-		"[-20]% Strength for enemy [All] units in adjacent [All] tiles <within [3] tiles of a ['Talulah Artorius']>",
+		//"[-20]% Strength for enemy [All] units in adjacent [All] tiles <within [3] tiles of a ['Talulah Artorius']>",
 		"[+30]% Strength bonus for [All] units within [4] tiles",
 		"Heal this unit by [10] HP <every [2] turns>",
 		"Unit will heal every turn, even if it performs an action",
