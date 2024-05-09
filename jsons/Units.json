@@ -213,7 +213,7 @@
 		"uniques": [
 		"[1] additional attacks per turn",
 		"This Unit takes [10] damage <for [Reunion] units> <within [3] tiles of a ['Talulah Artorius']>",
-		"[-20]% Strength bonus for [all] units within [4] tiles",
+		"[-20]% Strength <for [Enemy] units>",
 		"[+20]% Strength bonus for [Reunion] units within [4] tiles",	
 		"Ignores Zone of Control",
 		"Uncapturable",
@@ -233,6 +233,7 @@
 		"cost": 0,
 		//"requiredTech": "Atomic Theory",
 		"uniques": [
+		"Cannot be carried by [non-[{Patriot} {City}] units",
 		"Cannot attack <in [City center] tiles>",
 		"Cannot be intercepted",
 		"Limited to [1] per Civilization",
