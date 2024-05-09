@@ -81,7 +81,8 @@
 	        "unitType": "Scout",
 	        "movement": 3,
 	        "strength": 5,
-	        "cost": 25,
+	        //"cost": 25,
+		"cost": 0,
 	        "obsoleteTech": "Steam Power",
 	        "uniques": [
 		"Cannot attack",
