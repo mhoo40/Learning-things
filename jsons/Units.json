@@ -212,7 +212,7 @@
 		//"requiredTech": "Atomic Theory",
 		"uniques": [
 		"[1] additional attacks per turn",
-		"This Unit takes [10] damage <for [Reunion] units <within [3] tiles of a ['Talulah Artorius']>>",
+		"This Unit takes [10] damage <{for [Reunion] units} {within [3] tiles of a ['Talulah Artorius']}>",
 		"[+20]% Strength bonus for [Reunion] units within [4] tiles",
 		"[-20]% Strength bonus for [non-[Reunion]] units within [4] tiles",
 		"Ignores Zone of Control",
