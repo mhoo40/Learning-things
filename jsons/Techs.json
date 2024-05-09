@@ -1,0 +1,34 @@
+[
+  {
+        "columnNumber": 0,
+        "era": "Ancient era",
+        "techCost": 20,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Agriculture",
+                "row": 5,
+                "quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+                "uniques": [
+                    "Starting tech",
+                    "Notified of new Barbarian encampments"
+                ]
+            }, 
+            {
+                "name": "Yeti Squadron",
+                "row": 1,
+                "uniques": [
+                    "Unavailable",
+                ]
+            },
+            {
+                "name": "Patriot's Guerrillas",
+                "row": 3,
+                "uniques": [
+                    "Unavailable",
+                ]
+            },
+        ]
+    },
+]
