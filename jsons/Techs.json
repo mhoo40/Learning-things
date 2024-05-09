@@ -17,14 +17,18 @@
             }, 
             {
                 "name": "Yeti Squadron",
+                "uniqueTo": "Reunion",
                 "row": 1,
+                "quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
                 "uniques": [
                     "Unavailable",
                 ]
             },
             {
                 "name": "Patriot's Guerrillas",
+                "uniqueTo": "Reunion",
                 "row": 3,
+                "quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
                 "uniques": [
                     "Unavailable",
                 ]
