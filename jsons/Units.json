@@ -77,7 +77,7 @@
 	{
 	        "name": "Wrath",
 		"uniqueTo": "Reunion",
-	        "replaces": "Scout",
+	        //"replaces": "Scout",
 	        "unitType": "Scout",
 	        "movement": 3,
 	        "strength": 5,
