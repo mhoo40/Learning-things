@@ -2,8 +2,9 @@
     	{
         "name": "Caster",
         "movementType": "Land",
-	"uniques": ["[+80]% Strength <vs [{Armored} {Defender}] units>",
+	"uniques": [
 		"[-30]% Strength <vs [Melee] units>",
+		"[+80]% Strength <vs [{Armored} {Defender}] units>",
 		"[-25]% Strength <vs [Caster] units><when attacking>",
 		]
    	},
