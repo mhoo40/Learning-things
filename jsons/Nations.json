@@ -4,6 +4,8 @@
 		"leaderName": "Talulah",
 		"adjective": ["Infected"],
 		"startBias": ["Tundra"],
+		"style": "Infected",
+		
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "This land may reject us, but we won't succumb to the disease! We will find a way to save ourselves!",
