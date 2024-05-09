@@ -114,12 +114,12 @@
 		"unitType": "Sword",
 		//"movement": 2,
 		"movement": 10,
-		"strength": 23,
+		"strength": 20,
 		//"cost": 140,
 		"cost": 0,
 		"uniques": [
             	"[-30]% Strength <when above [50] HP>",
-            	"[+50]% Strength <when below [50] HP>"
+            	"[+40]% Strength <when below [50] HP>"
         	],
 		//"requiredTech": "Steel",	
 		"obsoleteTech": "Military Science",
