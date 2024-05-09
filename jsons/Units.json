@@ -194,7 +194,8 @@
 		"[1] additional attacks per turn <in [Reunion] cities>",
 		"[+30]% Strength <when adjacent to a [Patriot's Spear] unit>",
 		"[+30]% Strength <when defending>",
-		"[+200]% Strength <vs [Nuclear Weapon] units>",
+		"[+2000]% Strength <vs [Nuclear Weapon] units>",
+		"[+2000]% Strength <vs [Missile] units>",
 		"Uncapturable",
 		"Never appears as a Barbarian unit",
 		"Limited to [1] per Civilization",
@@ -213,7 +214,7 @@
 		//"requiredTech": "Atomic Theory",
 		"uniques": [
 		"[1] additional attacks per turn",
-		"Heal this unit by [3] HP <for [Enemy] units><within [3] tiles of a ['Talulah Artorius']>",
+		"Heal this unit by [-10] HP <for [Enemy] units><within [3] tiles of a ['Talulah Artorius']>",
 		"[+20]% Strength bonus for [Reunion] units within [4] tiles",
 		"[-20]% Strength bonus for [Enemy] units within [4] tiles",
 		"Ignores Zone of Control",
