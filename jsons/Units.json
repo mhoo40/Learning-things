@@ -82,7 +82,7 @@
         	"range": 12,
         	"cost": 0,
 		"uniques": [
-		"Nuclear weapon of Strength [2]",
+		"Nuclear weapon of Strength [0]",
 		"Blast radius [2]",
 		"Never appears as a Barbarian unit",
 		"Limited to [1] per Civilization",
@@ -214,7 +214,7 @@
 		//"requiredTech": "Atomic Theory",
 		"uniques": [
 		"[1] additional attacks per turn",
-		"This Unit takes [10] damage <for [Enemy] units><within [3] tiles of a ['Talulah Artorius']>",
+		"This Unit takes [10] damage <for [Reunion] units><within [3] tiles of a ['Talulah Artorius']>",
 		"[+20]% Strength bonus for [Reunion] units within [4] tiles",
 		"[-20]% Strength bonus for [Enemy] units within [4] tiles",
 		"Ignores Zone of Control",
