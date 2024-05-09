@@ -85,7 +85,7 @@
 	        "obsoleteTech": "Steam Power",
 	        "uniques": [
 		"Cannot attack",
-		"Ignore terrain cost"
+		"All tiles cost 1 movement",
 		],
 	        "attackSound": "arrow"
     	},
