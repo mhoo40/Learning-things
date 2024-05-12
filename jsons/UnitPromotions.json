@@ -193,7 +193,7 @@
         "uniques": [
             "May withdraw before melee ([60]%)"
         ],
-        "unitTypes": ["Assassin","Sword","Gunpowder","Archery","Ranged Gunpowder"]
+        "unitTypes": ["W", "Assassin","Sword","Gunpowder","Archery","Ranged Gunpowder"]
         },
 	{
         "name": "Dodge IV",
