@@ -193,6 +193,7 @@
         "uniques": [
             "May withdraw before melee ([60]%)"
         ],
+	"units": ["W"],
         "unitTypes": ["Assassin","Sword","Gunpowder"]
         },
 	{
