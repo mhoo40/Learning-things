@@ -12,7 +12,7 @@
 	        "Cost increases by [30] per owned city",
 		"Must be next to [Snow]",
         	],
-        	"requiredTech": "Military Science"
+        	//"requiredTech": "Military Science"
 	},
 	{
 		"name": "Patriot's Guerrillas",
@@ -24,6 +24,6 @@
 		"All newly-trained [all] units [in this city] receive the [Infected Empathy] promotion",
 		"Cost increases by [30] per owned city",
 		],
-		"requiredTech": "Radar"
+		//"requiredTech": "Radar"
 	}
 ]
