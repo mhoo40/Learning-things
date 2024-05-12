@@ -3,10 +3,12 @@
         "name": "Caster",
         "movementType": "Land",
 	"uniques": [
-		"[-30]% Strength <vs [Melee, Caster] units>",
-		//"[-25]% Strength <vs [Caster] units>",
-		"[+80]% Strength <vs [Armored] units>",
-		"[+80]% Strength <vs [Defender] units>",
+		"[-30]% Strength <vs [Melee] units> <hidden from users>",
+		"[-30]% Strength <vs [Caster] units> <hidden from users>",
+		"Comment ["-30% Strength vs Caster and Melee units"]",
+		"[+80]% Strength <vs [Armored] units> <hidden from users>",
+		"[+80]% Strength <vs [Defender] units> <hidden from users>",
+		"Comment ["+80% Strength vs Armored and Defender units"]",
 		]
    	},
 	{	
