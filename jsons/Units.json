@@ -238,6 +238,20 @@
 		"attackSound": "phasers"
 	},
 	{
+		"name": "Guerrilla Shieldguard",
+		"unitType": "Guerrillas",
+		//"movement": 1,
+		"movement": 10,
+		"strength": 65,
+		//"cost": 550,
+		"cost": 0,
+		"uniques": [
+		"[-15]% Strength for enemy [All] units in adjacent [All] tiles",
+		"Only available <if [Patriot's Guerrillas] is constructed>"
+        	],	
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Crownslayer",
 		"unitType": "Assassin",
 		"uniqueTo": "Reunion",
