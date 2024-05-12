@@ -24,6 +24,7 @@
 		//"cost": 180,
 		"cost": 0,
 		//"requiredTech": "Education",
+		"obsoleteTech": "Replaceable Parts",
 		"attackSound": "phasers"
 	},
 	{
@@ -31,11 +32,15 @@
 		"unitType": "Caster",
 		"movement": 2,
 		"range": 3,
-		"strength": 15,
-		"rangedStrength": 20,
-		//"cost": 180,
+		"strength": 35,
+		"rangedStrength": 40,
+		//"cost": 500,
 		"cost": 0,
-		//"requiredTech": "Education",
+		//"requiredTech": "Replaceable Parts",
+		"uniques": [
+		"[+20]% Strength <when defending>",
+		"[+40]% Strength <vs [{Ranged} {non-[Caster]}] units><when defending>"
+        	],
 		"attackSound": "phasers"
 	},
 	{
@@ -56,11 +61,22 @@
 		"unitType": "Defender",
 		//"movement": 1,
 		"movement": 10,
-		"strength": 17,
+		"strength": 22,
 		//"cost": 260,
 		"cost": 0,
-		//"requiredTech": "Metal Casting",	
-		"obsoleteTech": "Military Science",
+		//"requiredTech": "Steel",	
+		"obsoleteTech": "Electronics",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Heavy Defender",
+		"unitType": "Defender",
+		//"movement": 1,
+		"movement": 10,
+		"strength": 70,
+		//"cost": 500,
+		"cost": 0,
+		//"requiredTech": "Electronics",	
 		"attackSound": "metalhit"
 	},
 	{
@@ -85,22 +101,7 @@
 		],
 		"attackSound": "metalhit"
 	},
-	{
-		"name": "Nukery",
-		"unitType": "Missile",
-        	"movement": 1,
-        	"strength": 300,
-        	"rangedStrength": 300,
-        	"range": 12,
-        	"cost": 0,
-		"uniques": [
-		"Nuclear weapon of Strength [0]",
-		"Blast radius [2]",
-		"Never appears as a Barbarian unit",
-		"Limited to [1] per Civilization",
-		],
-		"attackSound": "metalhit"
-	},
+	
 	//Reunion Units
 	{
 	        "name": "Wrath",
@@ -122,17 +123,48 @@
 		"replaces": "Horseman",
 	        "uniqueTo": "Reunion",
 		"unitType": "Armored",
-		//"movement": 3,
-		"movement": 10,
+		"movement": 3,
 		"strength": 15,
-		//"cost": 90,
-		"cost": 0,
+		"cost": 90,
 		"uniques": [
             	"Can move after attacking",
-            	"[+25]% Strength <vs [Caster] units>"
+            	"[+30]% Strength <vs [Caster] units>"
         	],
-		//"requiredTech": "Horseback Riding",	
+		"requiredTech": "Horseback Riding",	
 		"obsoleteTech": "Chivalry",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Sarkaz Elite",
+		"replaces": "Knight",
+	        "uniqueTo": "Reunion",
+		"unitType": "Armored",
+		"movement": 3,
+        	"strength": 25,
+        	"cost": 140,
+        	"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Sarkaz Centurion",
+        	"promotions": ["Drill I"],
+        	"uniques": [
+            	"Can move after attacking",
+            	"[+30]% Strength <vs [Caster] units>"
+        	],	
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Sarkaz Centurion",
+		"replaces": "Cavalry",
+	        "uniqueTo": "Reunion",
+		"unitType": "Armored",
+		"movement": 3,
+        	"strength": 35,
+        	"cost": 250,
+        	"requiredTech": "Military Science",
+        	"uniques": [
+            	"[+30]% Strength <vs [Caster] units>",
+		"Heal this unit by [10] HP <when attacking>"	
+        	],	
 		"attackSound": "metalhit"
 	},
 	{
@@ -152,6 +184,58 @@
 		//"requiredTech": "Steel",	
 		"obsoleteTech": "Military Science",
 		"attackSound": "metalhit"
+	},
+	{
+		"name": "Blood Revenger",
+		"replaces": "Infantry",
+	        "uniqueTo": "Reunion",
+		"unitType": "Sword",
+		//"movement": 2,
+		"movement": 10,
+		"strength": 60,
+		//"cost": 450,
+		"cost": 0,
+		"uniques": [
+            	"[-35]% Strength <when above [50] HP>",
+            	"[+50]% Strength <when below [50] HP>"
+        	],
+		//"requiredTech": "Electronics",
+		"upgradesTo": "Mechanized Infantry",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Possessed Defender",
+		"replaces": "Heavy Defender",
+	        "uniqueTo": "Reunion",
+		"unitType": "Defender",
+		//"movement": 1,
+		"movement": 10,
+		"strength": 65,
+		//"cost": 540,
+		"cost": 0,
+		"uniques": [
+		"Unit will heal every turn, even if it performs an action",
+		],
+		//"requiredTech": "Electronics",	
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Sarkaz Caster",
+		"replaces": "Armored Caster",
+	        "uniqueTo": "Reunion",
+		"unitType": "Caster",
+		"movement": 2,
+		"range": 3,
+		"strength": 32,
+		"rangedStrength": 43,
+		//"cost": 510,
+		"cost": 0,
+		//"requiredTech": "Replaceable Parts",
+		"uniques": [
+		"[-30]% Strength for enemy [non-[Wounded]] units in adjacent [All] tiles",
+		"[+30]% Strength <vs [Caster] units>",
+        	],
+		"attackSound": "phasers"
 	},
 	{
 		"name": "Crownslayer",
@@ -178,9 +262,9 @@
 		//"movement": 2,
 		"movement": 10,
 		"range": 3,
-		"strength": 30,
-		"rangedStrength": 30,
-		//"cost": 500,
+		"strength": 20,
+		"rangedStrength": 25,
+		//"cost": 400,
 		"cost": 0,
 		//"requiredTech": "Astronomy",
 		"uniques": [
@@ -200,7 +284,7 @@
 		"range": 4,
 		"strength": 35,
 		"rangedStrength": 40,
-		//"cost": 700,
+		//"cost": 600,
 		"cost": 0,
 		//"requiredTech": "Dynamite",
 		"uniques": [
@@ -212,8 +296,8 @@
 		"This Unit gains the [Dodge III] promotion <after [1] turns>",
 		"Uncapturable <hidden from users>",
 		"Limited to [1] per Civilization <hidden from users>",
-		"[+50]% Strength <starting from the [Ancient era]>",
-		"[+50]% Strength <starting from the [Classical era]>",
+		"[+30]% Strength <starting from the [Atomic era]>",
+		"[+40]% Strength <starting from the [Information era]>",
 		],
 		"attackSound": "bombing"
 	},
