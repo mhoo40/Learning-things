@@ -1,25 +1,29 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
+		"name": "Yeti Squadron",
+		"uniqueTo": "Reunion",
+		"cost": 150,
+		"happiness": 5,
+		"faith": 2,
 		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"uniques": [
+		"[+30]% Production when constructing [Yeti Squad] units [in this city]",
+           	"[+1 Production] from [Snow] tiles [in this city]",
+	        "Cost increases by [30] per owned city",
+		"Must be next to [Snow]",
+        	],
+        	"requiredTech": "Military Science"
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "Patriot's Guerrillas",
+		"uniqueTo": "Reunion",
+		"cost": 200,
+		"happiness": 4,
+		"uniques": [
+		"[+20]% Production when constructing [Patriot's] units [in all city]",
+		"All newly-trained [all] units [in this city] receive the [Infected Empathy] promotion",
+		"Cost increases by [30] per owned city",
+		],
+		"requiredTech": "Radar"
 	}
 ]
