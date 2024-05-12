@@ -3,17 +3,16 @@
         "name": "Caster",
         "movementType": "Land",
 	"uniques": [
-		"[-30]% Strength <vs [Melee] units>",
+		"[-30]% Strength <vs [Melee, Caster] units>",
+		//"[-25]% Strength <vs [Caster] units>",
 		"[+80]% Strength <vs [Armored] units>",
 		"[+80]% Strength <vs [Defender] units>",
-		"[-25]% Strength <vs [Caster] units><when attacking>",
 		]
    	},
 	{	
         "name": "Defender",
         "movementType": "Land",
 	"uniques": [
-		"[-40]% Strength <vs [Caster] units><when attacking>",
 		"[-40]% Strength <vs [non-[Ranged]] units><when attacking>"
 		"[+40]% Strength <vs [non-[Caster]] units><when defending>",
 		"[+60]% Strength <vs [{non-[Caster]} {Ranged}] units><when defending>",
