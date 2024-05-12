@@ -181,7 +181,7 @@
 	},
 	{
 		"name": "W",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "W",
 		"uniqueTo": "Reunion",
 		//"movement": 3,
 		"movement": 10,
@@ -227,7 +227,7 @@
 	},
 	{
 		"name": "'Talulah Artorius'",
-		"unitType": "Melee",
+		"unitType": "Sword",
 		"uniqueTo": "Reunion",
 		//"movement": 4,
 		"movement": 10,
