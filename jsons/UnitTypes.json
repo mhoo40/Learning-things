@@ -26,4 +26,8 @@
 		"Invisible to non-adjacent units",
 		]
     	},
+	{	
+        "name": "W",
+        "movementType": "Land",
+    	},
 ]
