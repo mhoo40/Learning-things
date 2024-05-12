@@ -217,12 +217,12 @@
         "prerequisites": ["Shock III","Drill III","Ambush Formation III","Targeting I",
             "Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I","Flight Deck I","Armor Plating I"],
         "uniques": ["[+1] Movement"],
-        "unitTypes": ["W", "Defender","Assassin","Mounted","Melee Water","Ranged Water","Armored","Submarine","Aircraft Carrier","Helicopter"]
+        "unitTypes": ["Defender","Assassin","Mounted","Melee Water","Ranged Water","Armored","Submarine","Aircraft Carrier","Helicopter"]
         },
         {
         "name": "Sentry",
         "prerequisites": ["Accuracy I","Barrage I","Anti-Naval I","Shock II","Drill II","Ambush Formation II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
         "uniques": ["[+1] Sight"],
-        "unitTypes": ["W", "Caster","Assassin","Sword","Gunpowder","Paratrooping","Mounted","Mounted Ranged","Ranged Water","Armored","Melee Water"]
+        "unitTypes": ["Caster","Assassin","Sword","Gunpowder","Paratrooping","Mounted","Mounted Ranged","Ranged Water","Armored","Melee Water"]
         },
 ]
