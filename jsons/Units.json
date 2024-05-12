@@ -267,12 +267,13 @@
 	{
 		"name": "Yeti Operative",
 		"uniqueTo": "Reunion",
-		"unitType": "Yeti Squad",
+		"unitType": "Sword",
 		"movement": 2,
 		"strength": 30,
 		//"cost": 200,
 		"cost": 0,
 		"uniques": [
+		"Double movement in [Snow]",
 		"[+20]% Strength <when fighting in [Snow] tiles>",
 		"Only available <if [Yeti Squadron] is constructed>"
         	],	
@@ -280,7 +281,7 @@
 	},
 	{
 		"name": "Yeti Caster",
-		"unitType": "Yeti Squad",
+		"unitType": "Caster",
 		"uniqueTo": "Reunion",
 		"movement": 2,
 		"range": 3,
@@ -289,10 +290,7 @@
 		//"cost": 180,
 		"cost": 0,
 		"uniques": [
-		"[-30]% Strength <vs [{Melee} {non-[Defender]} {non-[Armored]}] units>",
-		"[-30]% Strength <vs [Caster] units><when attacking>",
-		"[+40]% Strength <vs [Armored] units>",
-		"[+40]% Strength <vs [Defender] units>",
+		"Double movement in [Snow]",
 		"[+20]% Strength <when fighting in [Snow] tiles>",
 		"Only available <if [Yeti Squadron] is constructed>"
         	],	
@@ -308,9 +306,10 @@
 		//"cost": 550,
 		"cost": 0,
 		"uniques": [
-		"[-40]% Strength <vs [non-[Ranged]] units><when attacking>"
-		"[+30]% Strength <vs [non-[Caster]] units><when defending>",
-		"[+30]% Strength <vs [{non-[Caster]} {Ranged}] units><when defending>",
+		"[-40]% Strength <vs [non-[Ranged]] units><when attacking><hidden from users>"
+		"[+30]% Strength <vs [non-[Caster]] units><when defending><hidden from users>",
+		"[-40]% Strength <vs [Caster] units><when defending><hidden from users>",
+		"[+30]% Strength <vs [{non-[Caster]} {Ranged}] units><when defending><hidden from users>",
 		"[-15]% Strength for enemy [All] units in adjacent [All] tiles",
 		"Only available <if [Patriot's Guerrillas] is constructed>"
         	],	
@@ -328,7 +327,7 @@
 		"uniques": [
 		"Cannot attack",
 		"Invisible to non-adjacent units",
-		"[+10]% Strength bonus for [Patriot's] units within [3] tiles",
+		"[+20]% Strength bonus for [Patriot's] units within [3] tiles",
 		"Limited to [2] per Civilization",
 		"Only available <if [Patriot's Guerrillas] is constructed>"
         	],	
