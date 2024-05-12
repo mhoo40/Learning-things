@@ -80,6 +80,33 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Shadow",
+		"unitType": "Assassin",
+		"movement": 3,
+		"strength": 25,
+		"cost": 200,
+		"requiredTech": "Rifling",
+		"uniques": [
+		"Never appears as a Barbarian unit",
+		"Limited to [3] per Civilization",
+		],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Technical Scout",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Refrigeration",
+		"uniques": [
+		"Cannot attack",
+		"Can see invisible [All] units",	
+		"Never appears as a Barbarian unit",
+		],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Sniper",
 		"unitType": "Archery",
 		"movement": 15,
@@ -238,15 +265,84 @@
 		"attackSound": "phasers"
 	},
 	{
+		"name": "Yeti Operative",
+		"uniqueTo": "Reunion",
+		"unitType": "Yeti Squad",
+		"movement": 2,
+		"strength": 30,
+		//"cost": 200,
+		"cost": 0,
+		"uniques": [
+		"[+20]% Strength <when fighting in [Snow] tiles>",
+		"Only available <if [Yeti Squadron] is constructed>"
+        	],	
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Yeti Caster",
+		"unitType": "Yeti Squad",
+		"uniqueTo": "Reunion",
+		"movement": 2,
+		"range": 3,
+		"strength": 20,
+		"rangedStrength": 25,
+		//"cost": 180,
+		"cost": 0,
+		"uniques": [
+		"[+20]% Strength <when fighting in [Snow] tiles>",
+		"Only available <if [Yeti Squadron] is constructed>"
+        	],	
+		"attackSound": "shot"
+	},
+	{
 		"name": "Guerrilla Shieldguard",
 		"unitType": "Patriot's",
+		"uniqueTo": "Reunion",
 		//"movement": 1,
 		"movement": 10,
 		"strength": 65,
 		//"cost": 550,
 		"cost": 0,
 		"uniques": [
+		"[-40]% Strength <vs [non-[Ranged]] units><when attacking>"
+		"[+30]% Strength <vs [non-[Caster]] units><when defending>",
+		"[+30]% Strength <vs [{non-[Caster]} {Ranged}] units><when defending>",
 		"[-15]% Strength for enemy [All] units in adjacent [All] tiles",
+		"Only available <if [Patriot's Guerrillas] is constructed>"
+        	],	
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Guerrilla Herald",
+		"unitType": "Patriot's",
+		"uniqueTo": "Reunion",
+		//"movement": 3,
+		"movement": 10,
+		"strength": 20,
+		//"cost": 500,
+		"cost": 0,
+		"uniques": [
+		"Cannot attack",
+		"Invisible to non-adjacent units",
+		"[+10]% Strength bonus for [Patriot's] units within [3] tiles",
+		"Limited to [2] per Civilization",
+		"Only available <if [Patriot's Guerrillas] is constructed>"
+        	],	
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Guerrilla Siegebreaker",
+		"replaces": "Paratrooper",
+		"uniqueTo": "Reunion",
+		"unitType": "Patriot's",
+		//"movement": 3,
+		"movement": 10,
+		"strength": 65,
+		//"cost": 500,
+		"cost": 0,
+		"uniques": [
+		"[+50]% Strength <vs cities>",
+		"May Paradrop up to [10] tiles from inside friendly territory",
 		"Only available <if [Patriot's Guerrillas] is constructed>"
         	],	
 		"attackSound": "metalhit"
@@ -260,7 +356,7 @@
 		"strength": 20,
 		//"cost": 300,
 		"cost": 0,
-		//"requiredTech": "Iron Working",
+		//"requiredTech": "Rifling",
 		"uniques": [
 		"[+5] HP when healing <in [Foreign Land] tiles>",
 		"Uncapturable",
