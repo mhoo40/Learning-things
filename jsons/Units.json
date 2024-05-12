@@ -192,7 +192,7 @@
 		"cost": 0,
 		//"requiredTech": "Astronomy",
 		"uniques": [
-		"Cannot attack <every [2] turns><when attacking>",
+		"Cannot attack <every [2] turns>",
 		"[+200]% Strength <vs cities> <when attacking>",
             	"No defensive terrain bonus",	
 		"Destroys tile improvements when attacking <with [25]% chance>",	
