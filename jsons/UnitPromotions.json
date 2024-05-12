@@ -172,7 +172,7 @@
         "unitTypes": ["Defender","Assassin","Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Armored"]
         },
 	{
-        "name": "Evasion I",
+        "name": "Dodge I",
         "prerequisites": ["Shock I","Drill I","Ambush Formation I","Accuracy I","Barrage I","Anti-Naval I"],
         "uniques": [
             "May withdraw before melee ([20]%)"
@@ -180,24 +180,24 @@
         "unitTypes": ["Assassin","Sword","Gunpowder","Archery","Ranged Gunpowder"]
         },
 	{
-        "name": "Evasion II",
-        "prerequisites": ["Evasion I"],
+        "name": "Dodge II",
+        "prerequisites": ["Dodge I"],
         "uniques": [
             "May withdraw before melee ([40]%)"
         ],
         "unitTypes": ["Assassin","Sword","Gunpowder","Archery","Ranged Gunpowder"]
         },
 	{
-        "name": "Evasion III",
-        "prerequisites": ["Evasion II"],
+        "name": "Dodge III",
+        "prerequisites": ["Dodge II"],
         "uniques": [
             "May withdraw before melee ([60]%)"
         ],
         "unitTypes": ["Assassin","Sword","Gunpowder","Archery","Ranged Gunpowder"]
         },
 	{
-        "name": "Evasion IV",
-        "prerequisites": ["Evasion III"],
+        "name": "Dodge IV",
+        "prerequisites": ["Dodge III"],
         "uniques": [
             "May withdraw before melee ([80]%)"
         ],
