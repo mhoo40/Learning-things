@@ -171,6 +171,38 @@
         ],
         "unitTypes": ["Defender","Assassin","Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Armored"]
         },
+	{
+        "name": "Evasion I",
+        "prerequisites": ["Shock I","Drill I","Ambush Formation I","Accuracy I","Barrage I","Anti-Naval I"],
+        "uniques": [
+            "May withdraw before melee ([20]%)"
+        ],
+        "unitTypes": ["Assassin","Sword","Gunpowder","Archery","Ranged Gunpowder"]
+        },
+	{
+        "name": "Evasion II",
+        "prerequisites": ["Evasion I"],
+        "uniques": [
+            "May withdraw before melee ([40]%)"
+        ],
+        "unitTypes": ["Assassin","Sword","Gunpowder","Archery","Ranged Gunpowder"]
+        },
+	{
+        "name": "Evasion III",
+        "prerequisites": ["Evasion II"],
+        "uniques": [
+            "May withdraw before melee ([60]%)"
+        ],
+        "unitTypes": ["Assassin","Sword","Gunpowder","Archery","Ranged Gunpowder"]
+        },
+	{
+        "name": "Evasion IV",
+        "prerequisites": ["Evasion III"],
+        "uniques": [
+            "May withdraw before melee ([80]%)"
+        ],
+        "unitTypes": ["Assassin"]
+        },
         {
         "name": "March",
         "prerequisites": ["Accuracy II","Barrage II","Anti-Naval II","Shock III","Drill III","Ambush Formation III"],
