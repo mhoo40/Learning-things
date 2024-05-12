@@ -137,6 +137,14 @@
         "uniques": ["[1] additional attacks per turn"],
         "unitTypes": ["Assassin","Sword","Gunpowder","Mounted","Armored"]
         },
+
+	//Reunion
+	{
+        "name": "Infected Empathy",
+        "uniqueTo": "Reunion",
+	"uniques": ["[+30]% Strength <when fighting in [Friendly Land] tiles>"],
+        },
+	
         //{
         //"name": "Medic",
         //"prerequisites": ["Shock I", "Drill I","Ambush Formation I", "Scouting II", "Survivalism II"],
@@ -154,6 +162,7 @@
         //],
         //"unitTypes": ["Sword","Gunpowder","Paratrooping","Mounted","Scout"]
         //},
+	
         //Mixed
         {
         "name": "Cover I",
