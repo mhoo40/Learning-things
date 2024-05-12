@@ -5,7 +5,7 @@
             "Heal this unit by [50] HP",
             "Doing so will consume this opportunity to choose a Promotion"
         ],
-        "unitTypes": ["Caster","Defender","Assassin","Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Mounted Ranged","Paratrooping"],
+        "unitTypes": ["W", "Caster","Defender","Assassin","Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Mounted Ranged","Paratrooping"],
         "row": 0,
         "column": 0
         },
@@ -29,13 +29,13 @@
         {
         "name": "Barrage I",
         "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-        "unitTypes": ["Caster","Siege","Archery","Mounted Ranged","Ranged Gunpowder"]
+        "unitTypes": ["W", "Caster","Siege","Archery","Mounted Ranged","Ranged Gunpowder"]
         },
         {
         "name": "Barrage II",
         "prerequisites": ["Barrage I"],
         "uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-        "unitTypes": ["Caster","Siege","Archery","Mounted Ranged","Ranged Gunpowder"]
+        "unitTypes": ["W", "Caster","Siege","Archery","Mounted Ranged","Ranged Gunpowder"]
         },
         {
         "name": "Barrage III",
@@ -46,37 +46,37 @@
         {
         "name": "Anti-Naval I",
         "uniques": ["[+33]% Strength <vs [Water] units>"],
-        "unitTypes": ["Caster","Archery","Siege","Ranged Gunpowder","Mounted Ranged"]
+        "unitTypes": ["W", "Caster","Archery","Siege","Ranged Gunpowder","Mounted Ranged"]
         },
         {
         "name": "Anti-Naval II",
         "prerequisites": ["Anti-Naval I"],
         "uniques": ["[+33]% Strength <vs [Water] units>"],
-        "unitTypes": ["Caster","Archery","Siege","Ranged Gunpowder","Mounted Ranged"]
+        "unitTypes": ["W", "Caster","Archery","Siege","Ranged Gunpowder","Mounted Ranged"]
         },
         {
         "name": "Anti-Naval III",
         "prerequisites": ["Anti-Naval II"],
         "uniques": ["[+33]% Strength <vs [Water] units>"],
-        "unitTypes": ["Caster","Archery","Siege","Ranged Gunpowder","Mounted Ranged"]
+        "unitTypes": ["W", "Caster","Archery","Siege","Ranged Gunpowder","Mounted Ranged"]
         },
         {
         "name": "Volley",
         "prerequisites": ["Accuracy I","Barrage I","Anti-Naval I"],
         "uniques": ["[+50]% Strength <vs cities>"],
-        "unitTypes": ["Caster","Siege","Archery","Mounted Ranged","Ranged Gunpowder"]
+        "unitTypes": ["W", "Caster","Siege","Archery","Mounted Ranged","Ranged Gunpowder"]
         },
         {
         "name": "Extended Range",
         "prerequisites": ["Accuracy III","Barrage III","Anti-Naval III","Targeting II","Bombardment II"],
         "uniques": ["[+1] Range"],
-        "unitTypes": ["Caster","Archery","Ranged Gunpowder","Siege","Ranged Water","Mounted Ranged"]
+        "unitTypes": ["W", "Caster","Archery","Ranged Gunpowder","Siege","Ranged Water","Mounted Ranged"]
         },
         {
         "name": "Indirect Fire",
         "prerequisites": ["Accuracy III", "Barrage III","Anti-Naval III", "Bombardment II", "Targeting II"],
         "uniques": ["Ranged attacks may be performed over obstacles"],
-        "unitTypes": ["Caster","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Ranged Water"]
+        "unitTypes": ["W", "Caster","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Ranged Water"]
         },
         //Art
         {
@@ -209,19 +209,19 @@
         "uniques": [
             "Unit will heal every turn, even if it performs an action"
         ],
-        "unitTypes": ["Defender","Assassin","Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Mounted"]
+        "unitTypes": ["W", "Defender","Assassin","Sword","Gunpowder","Paratrooping","Archery","Mounted Ranged","Ranged Gunpowder","Siege","Mounted"]
         },
         {
         "name": "Mobility",
         "prerequisites": ["Shock III","Drill III","Ambush Formation III","Targeting I",
             "Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I","Flight Deck I","Armor Plating I"],
         "uniques": ["[+1] Movement"],
-        "unitTypes": ["Defender","Assassin","Mounted","Melee Water","Ranged Water","Armored","Submarine","Aircraft Carrier","Helicopter"]
+        "unitTypes": ["W", "Defender","Assassin","Mounted","Melee Water","Ranged Water","Armored","Submarine","Aircraft Carrier","Helicopter"]
         },
         {
         "name": "Sentry",
         "prerequisites": ["Accuracy I","Barrage I","Anti-Naval I","Shock II","Drill II","Ambush Formation II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
         "uniques": ["[+1] Sight"],
-        "unitTypes": ["Caster","Assassin","Sword","Gunpowder","Paratrooping","Mounted","Mounted Ranged","Ranged Water","Armored","Melee Water"]
+        "unitTypes": ["W", "Caster","Assassin","Sword","Gunpowder","Paratrooping","Mounted","Mounted Ranged","Ranged Water","Armored","Melee Water"]
         },
 ]
