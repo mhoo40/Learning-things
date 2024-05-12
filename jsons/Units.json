@@ -289,6 +289,10 @@
 		//"cost": 180,
 		"cost": 0,
 		"uniques": [
+		"[-30]% Strength <vs [{Melee} {non-[Defender]} {non-[Armored]}] units>",
+		"[-30]% Strength <vs [Caster] units><when attacking>",
+		"[+40]% Strength <vs [Armored] units>",
+		"[+40]% Strength <vs [Defender] units>",
 		"[+20]% Strength <when fighting in [Snow] tiles>",
 		"Only available <if [Yeti Squadron] is constructed>"
         	],	
