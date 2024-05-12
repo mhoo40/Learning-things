@@ -10,18 +10,10 @@
 		]
    	},
 	{
-        "name": "Yeti Squad",
-        "movementType": "Land",
-	"uniques": [
-		"Double movement in [Snow]",
-		"[+5]% Strength bonus for [Yeti Squad] units within [2] tiles",
-		]
-   	},
-	{
         "name": "Patriot's",
         "movementType": "Land",
 	"uniques": [
-		"[+5]% Strength bonus for [All] units within [1] tiles",	
+		"[+10]% Strength bonus for [All] units within [1] tiles",	
 		]
    	},
 	{	
