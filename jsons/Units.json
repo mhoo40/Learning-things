@@ -269,6 +269,7 @@
 		//"requiredTech": "Astronomy",
 		"uniques": [
 		"[1] additional attacks per turn",
+		"Defense bonus when embarked <hidden from users>",
 		"Uncapturable",
 		"Never appears as a Barbarian unit",
 		"Limited to [1] per Civilization",
@@ -294,6 +295,7 @@
 		"Destroys tile improvements when attacking <with [20]% chance>",	
 		//"This Unit gains the [Dodge III] promotion <after [10] turns>",
 		"This Unit gains the [Dodge III] promotion <after [1] turns>",
+		"Defense bonus when embarked <hidden from users>",
 		"Uncapturable <hidden from users>",
 		"Limited to [1] per Civilization <hidden from users>",
 		"[+30]% Strength <starting from the [Atomic era]>",
@@ -312,10 +314,11 @@
 		"cost": 0,
 		//"requiredTech": "Atomic Theory",
 		"uniques": [
-		"Can carry [1] [Patriot's Spear] units",
+		"Can carry [1] [Patriot's Spear] units <hidden from users>",
 		"[1] additional attacks per turn <in [Reunion] cities>",
 		"[+30]% Strength <when adjacent to a [Patriot's Spear] unit>",
 		"[+30]% Strength <when defending>",
+		"Defense bonus when embarked <hidden from users>",
 		"Uncapturable <hidden from users>",
 		"Limited to [1] per Civilization <hidden from users>",
 		],
@@ -359,7 +362,7 @@
 		"cost": 0,
 		//"requiredTech": "Atomic Theory",
 		"uniques": [
-		"Cannot be carried by [non-[{Patriot} {City}]] units <hidden from users>",
+		"Cannot be carried by [non-[Patriot]] units",
 		"Cannot attack <in [City center] tiles> <hidden from users>",
 		"Comment [Can only attack when carried by Patriot]",
 		"Limited to [1] per Civilization <hidden from users>",
