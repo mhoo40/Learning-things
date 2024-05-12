@@ -239,7 +239,7 @@
 	},
 	{
 		"name": "Guerrilla Shieldguard",
-		"unitType": "Guerrillas",
+		"unitType": "Patriot's",
 		//"movement": 1,
 		"movement": 10,
 		"strength": 65,
