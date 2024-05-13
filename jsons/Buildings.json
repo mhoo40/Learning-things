@@ -7,7 +7,7 @@
 		"faith": 2,
 		"isNationalWonder": true,
 		"uniques": [
-		"[+30]% Production when constructing [Yeti Squad] units [in this city]",
+		"[+20]% Production when constructing [non-air] units [in this city]",
            	"[+1 Production] from [Snow] tiles [in this city]",
 	        "Cost increases by [30] per owned city",
 		"Must be next to [Snow]",
