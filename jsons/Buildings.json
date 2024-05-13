@@ -7,6 +7,7 @@
 		"faith": 2,
 		"isNationalWonder": true,
 		"uniques": [
+		"Destroyed when the city is captured",
 		"[+20]% Production when constructing [non-air] units [in this city]",
            	"[+1 Production] from [Snow] tiles [in this city]",
 	        "Cost increases by [30] per owned city",
@@ -19,7 +20,9 @@
 		"uniqueTo": "Reunion",
 		"cost": 200,
 		"happiness": 4,
+		"isNationalWonder": true,
 		"uniques": [
+		"Destroyed when the city is captured",
 		"[+20]% Production when constructing [Patriot's] units [in all city]",
 		"All newly-trained [all] units [in this city] receive the [Infected Empathy] promotion",
 		"Cost increases by [30] per owned city",
