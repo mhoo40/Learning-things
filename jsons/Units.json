@@ -21,6 +21,7 @@
 		"strength": 15,
 		"rangedStrength": 20,
 		"cost": 180,
+		"upgradesTo": "Armored Caster",
 		"requiredTech": "Education",
 		"obsoleteTech": "Replaceable Parts",
 		"attackSound": "phasers"
@@ -58,6 +59,7 @@
 		"strength": 22,
 		"cost": 260,
 		"requiredTech": "Steel",	
+		"upgradesTo": "Heavy Defender",
 		"obsoleteTech": "Electronics",
 		"attackSound": "metalhit"
 	},
@@ -147,6 +149,7 @@
             	"Can move after attacking",
             	"[+30]% Strength <vs [Caster] units>"
         	],
+		"upgradesTo": "Sarkaz Elite",
 		"requiredTech": "Horseback Riding",	
 		"obsoleteTech": "Chivalry",
 		"attackSound": "metalhit"
@@ -193,6 +196,7 @@
 		"movement": 2,
 		"strength": 20,
 		"cost": 140,
+		"upgradesTo": "Blood Revenger",
 		"uniques": [
             	"[-30]% Strength <when above [50] HP>",
             	"[+40]% Strength <when below [50] HP>"
