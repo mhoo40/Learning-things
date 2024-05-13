@@ -13,7 +13,7 @@
 	        "Cost increases by [30] per owned city",
 		"Must be next to [Snow]",
         	],
-        	//"requiredTech": "Military Science"
+        	"requiredTech": "Military Science"
 	},
 	{
 		"name": "Patriot's Guerrillas",
@@ -23,10 +23,11 @@
 		"isNationalWonder": true,
 		"uniques": [
 		"Destroyed when the city is captured",
+		"Only available <if [Arsenal] is constructed in all [non-[Puppeted]] cities>",
 		"[+20]% Production when constructing [Patriot's] units [in all city]",
 		"All newly-trained [all] units [in this city] receive the [Infected Empathy] promotion",
 		"Cost increases by [30] per owned city",
 		],
-		//"requiredTech": "Radar"
+		"requiredTech": "Radar"
 	}
 ]
