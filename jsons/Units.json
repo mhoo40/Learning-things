@@ -208,7 +208,7 @@
             	"[+40]% Strength <when below [50] HP>"
         	],
 		"requiredTech": "Steel",	
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Electronics",
 		"attackSound": "metalhit"
 	},
 	{
@@ -385,8 +385,7 @@
 		"cost": 800,
 		"requiredTech": "Ballistics",
 		"uniques": [
-		"[+30]% Strength <when fighting in [Snow] tiles>",
-		"[1] additional attacks per turn",
+		"Enemy [All] units must spend [1] extra movement points when inside your territory",
 		"Defense bonus when embarked <hidden from users>",
 		"Unbuildable",
 		"Uncapturable",
