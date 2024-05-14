@@ -141,6 +141,21 @@
         	],
         	"attackSound": "nuke"
 	},
+	{
+        "name": "Anti-Tank Rifle",
+        "unitType": "Gunpowder",
+        "movement": 2,
+        "strength": 30,
+        "cost": 300,
+        "requiredTech": "Railroads",
+        "upgradesTo": "Anti-Tank Gun",
+        "obsoleteTech": "Combined Arms",
+        "uniques": [
+            "[+200]% Strength <vs [Armored] units>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "machinegun"
+    },
 	//Reunion Units
 	{
 	        "name": "Wrath",
