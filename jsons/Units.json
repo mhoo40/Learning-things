@@ -127,7 +127,21 @@
 		],
 		"attackSound": "metalhit"
 	},
-	
+	{
+		"name": "Nukery",
+		"unitType": "Archery",
+		"uniqueTo": "Reunion",
+		"movement": 1,
+       	 	"strength": 200,
+       	 	"rangedStrength": 200,
+       	 	"range": 12,
+        	"cost": 0,
+        	"uniques": [
+            	"Nuclear weapon of Strength [1]",
+            	"Blast radius [1]",
+        	],
+        	"attackSound": "nuke"
+	},
 	//Reunion Units
 	{
 	        "name": "Wrath",
