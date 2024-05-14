@@ -313,7 +313,7 @@
 		"[+30]% Strength <vs [{non-[Caster]} {Melee}] units><when defending><hidden from users>",
 		"[-40]% Strength <vs [Caster] units><when defending><hidden from users>",
 		"[+70]% Strength <vs [{non-[Caster]} {Ranged}] units><when defending><hidden from users>",
-		"Can carry [1] [Wounded] unit",
+		"Can carry [1] [Wounded] units",
 		"[-15]% Strength for enemy [All] units in adjacent [All] tiles",
 		"Limited to [4] per Civilization",
 		"Only available <if [Patriot's Guerrillas] is constructed>"
@@ -464,7 +464,7 @@
 		"uniques": [
 		//"Cannot be purchased <hidden from users>",
 		"Empire enters a [100]-turn Golden Age <upon losing at least [60] HP in a single attack>",
-		"[1] free [Musketman] units appea <upon losing at least [60] HP in a single attack>",
+		"[1] free [Musketman] units appear <upon losing at least [60] HP in a single attack>",
 		"[1] additional attacks per turn",
 		//"[-20]% Strength for enemy [All] units in adjacent [All] tiles <within [3] tiles of a ['Talulah Artorius']>",
 		"[+30]% Strength bonus for [Military] units within [4] tiles",
