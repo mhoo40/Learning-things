@@ -25,6 +25,20 @@ UnitIcons/Elite Caster
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Armored Caster
+  rotate: false
+  xy: 200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sarkaz Caster
+  rotate: false
+  xy: 300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Armored Guard
   rotate: false
   xy: 400, 0
@@ -39,7 +53,35 @@ UnitIcons/Elite Shielder
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Heavy Defender
+  rotate: false
+  xy: 600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Possessed Defender
+  rotate: false
+  xy: 700, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Sarkaz Soldier
+  rotate: false
+  xy: 900, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sarkaz Elite
+  rotate: false
+  xy: 900, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sarkaz Centurion
   rotate: false
   xy: 900, 0
   size: 100, 100
@@ -53,7 +95,56 @@ UnitIcons/Revenger
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Blood Revenger
+  rotate: false
+  xy: 1000, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Yeti Caster
+  rotate: false
+  xy: 1200, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Yeti Operative
+  rotate: false
+  xy: 1100, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Guerrilla Shieldguard
+  rotate: false
+  xy: 1400, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Guerrilla Herald
+  rotate: false
+  xy: 1500, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Guerrilla Siegebreaker
+  rotate: false
+  xy: 1600, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Frost Nova
+  rotate: false
+  xy: 100, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Winter's Scar
   rotate: false
   xy: 100, 100
   size: 100, 100
@@ -81,16 +172,37 @@ UnitIcons/Patriot's Spear
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Yeti Squadron
+UnitIcons/W
   rotate: false
-  xy: 0, 100
+  xy: 500, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Patriot's Guerrillas
+UnitIcons/'Talulah Artorius'
   rotate: false
-  xy: 0, 100
+  xy: 600, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Anti-Tank Rifle
+  rotate: false
+  xy: 1300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Yeti Squadron
+  rotate: false
+  xy: 100, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Patriot's Guerrillas
+  rotate: false
+  xy: 300, 100
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -102,6 +214,13 @@ NationIcons/Reunion
   orig: 100, 100
   offset: 0, 0
   index: -1
+LeaderIcons/Reunion
+  rotate: false
+  xy: 600, 100
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Wrath
   rotate: false
   xy: 400, 1000
@@ -109,7 +228,21 @@ TileSets/FantasyHex/Units/Wrath
   orig: 50, 50
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Scout-Infected
+  rotate: false
+  xy: 400, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 TileSets/HexaRealm/Units/Wrath
+  rotate: false
+  xy: 400, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Units/Scout-Infected
   rotate: false
   xy: 400, 1000
   size: 50, 50
@@ -130,6 +263,13 @@ TileSets/FantasyHex/Units/Elite Caster
   orig: 50, 50
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Armored Caster
+  rotate: false
+  xy: 200, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Armored Guard
   rotate: false
   xy: 50, 1000
@@ -144,9 +284,44 @@ TileSets/FantasyHex/Units/Elite Shielder
   orig: 50, 50
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Heavy Defender
+  rotate: false
+  xy: 250, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sarkaz Caster
+  rotate: false
+  xy: 300, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Possessed Defender
+  rotate: false
+  xy: 350, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Sarkaz Soldier
   rotate: false
   xy: 450, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sarkaz Elite
+  rotate: false
+  xy: 500, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sarkaz Centurion
+  rotate: false
+  xy: 750, 1000
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -158,6 +333,48 @@ TileSets/FantasyHex/Units/Revenger
   orig: 50, 50
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Blood Revenger
+  rotate: false
+  xy: 600, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Yeti Caster
+  rotate: false
+  xy: 700, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Yeti Operative
+  rotate: false
+  xy: 650, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Guerrilla Shieldguard
+  rotate: false
+  xy: 800, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Guerrilla Herald
+  rotate: false
+  xy: 850, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Guerrilla Siegebreaker
+  rotate: false
+  xy: 900, 1000
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Frost Nova
   rotate: false
   xy: 0, 1050
@@ -165,9 +382,30 @@ TileSets/FantasyHex/Units/Frost Nova
   orig: 100, 100
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Winter's Scar
+  rotate: false
+  xy: 300, 1050
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Crownslayer
   rotate: false
   xy: 100, 1050
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/W
+  rotate: false
+  xy: 400, 1050
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/'Talulah Artorius'
+  rotate: false
+  xy: 500, 1050
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
