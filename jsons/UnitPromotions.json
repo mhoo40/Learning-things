@@ -144,6 +144,12 @@
         "uniqueTo": "Reunion",
 	"uniques": ["[+30]% Strength <when fighting in [Friendly Land] tiles>"],
         },
+			
+	{
+        "name": "Destructive",
+	"units": ["W", "'Talulah Artorius'"]
+	"uniques": ["Destroys tile improvements when attacking <with [20]% chance>"],
+        },
 	
         //{
         //"name": "Medic",
