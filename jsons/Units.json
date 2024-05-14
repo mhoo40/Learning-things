@@ -107,6 +107,11 @@
 		"strength": 10,
 		"rangedStrength": 12,
 		"cost": 0,
+		"uniques": [
+		"Unbuildable",
+		"Never appears as a Barbarian unit",
+		"Limited to [1] per Civilization",
+		],
 		"attackSound": "metalhit"
 	},
 	{
@@ -116,6 +121,7 @@
 		"strength": 250,
 		"cost": 0,
 		"uniques": [
+		"Unbuildable",
 		"Never appears as a Barbarian unit",
 		"Limited to [1] per Civilization",
 		],
@@ -247,7 +253,7 @@
 		"cost": 510,
 		"requiredTech": "Replaceable Parts",
 		"uniques": [
-		"[-30]% Strength for enemy [non-[Wounded]] units in adjacent [All] tiles",
+		"[+40]% Strength <vs [non-[Wounded]] units>",
 		"[+30]% Strength <vs [Caster] units>",
         	],
 		"attackSound": "phasers"
@@ -290,11 +296,13 @@
 		"strength": 65,
 		"cost": 550,
 		"uniques": [
-		"[-40]% Strength <vs [non-[Ranged]] units><when attacking><hidden from users>"
-		"[+30]% Strength <vs [non-[Caster]] units><when defending><hidden from users>",
+		"[-30]% Strength <vs [Melee] units><when attacking><hidden from users>"
+		"[+30]% Strength <vs [{non-[Caster]} {Melee}] units><when defending><hidden from users>",
 		"[-40]% Strength <vs [Caster] units><when defending><hidden from users>",
-		"[+30]% Strength <vs [{non-[Caster]} {Ranged}] units><when defending><hidden from users>",
+		"[+70]% Strength <vs [{non-[Caster]} {Ranged}] units><when defending><hidden from users>",
+		"Can carry [1] [Wounded] unit",
 		"[-15]% Strength for enemy [All] units in adjacent [All] tiles",
+		"Limited to [4] per Civilization",
 		"Only available <if [Patriot's Guerrillas] is constructed>"
         	],	
 		"attackSound": "metalhit"
@@ -400,8 +408,7 @@
 		"uniques": [
 		"Cannot attack <every [2] turns>",
 		"[+50]% Strength <vs cities> <when attacking>",
-            	"No defensive terrain bonus",	
-		"Destroys tile improvements when attacking <with [20]% chance>",	
+            	"No defensive terrain bonus",		
 		"This Unit gains the [Dodge III] promotion <after [10] turns>",
 		"Defense bonus when embarked <hidden from users>",
 		"Uncapturable <hidden from users>",
@@ -416,7 +423,7 @@
 		"unitType": "Armored",
 		"uniqueTo": "Reunion",
 		"movement": 1,
-		"strength": 230,
+		"strength": 200,
 		"cost": 1200,
 		"requiredTech": "Atomic Theory",
 		"uniques": [
@@ -436,18 +443,19 @@
 		"unitType": "Sword",
 		"uniqueTo": "Reunion",
 		"movement": 4,
-		"interceptRange": 5,
+		"interceptRange": 3,
 		"strength": 400,
 		"cost": 4500,
 		"requiredTech": "Future Tech",
 		"uniques": [
 		"Cannot be purchased <hidden from users>",
+		"Empire enters a [100]-turn Golden Age <upon losing at least [60] HP in a single attack>",
+		"[1] free [Musketman] units appea <upon losing at least [60] HP in a single attack>",
 		"[1] additional attacks per turn",
 		//"[-20]% Strength for enemy [All] units in adjacent [All] tiles <within [3] tiles of a ['Talulah Artorius']>",
-		"[+30]% Strength bonus for [All] units within [4] tiles",
+		"[+30]% Strength bonus for [Military] units within [4] tiles",
 		"Unit will heal every turn, even if it performs an action",
-		"Destroys tile improvements when attacking <with [20]% chance>",
-		"[+50]% chance to intercept air attacks <hidden from users>",
+		"[+100]% chance to intercept air attacks <hidden from users>",
 		"[+20]% XP gained from combat",
 		"Defense bonus when embarked <hidden from users>",
 		"Ignores Zone of Control",
