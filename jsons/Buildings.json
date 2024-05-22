@@ -1,0 +1,46 @@
+[
+	{
+		"name": "Yeti Squadron",
+		"uniqueTo": "Reunion",
+		"cost": 150,
+		"happiness": 5,
+		"faith": 2,
+		"isNationalWonder": true,
+		"uniques": [
+		"Destroyed when the city is captured",
+		"[+20]% Production when constructing [non-air] units [in this city]",
+           	"[+1 Production] from [Snow] tiles [in this city]",
+	        "Cost increases by [30] per owned city",
+		"Must be next to [Snow]",
+        	],
+        	"requiredTech": "Military Science"
+	},
+	{
+		"name": "Patriot's Guerrillas",
+		"uniqueTo": "Reunion",
+		"cost": 200,
+		"happiness": 4,
+		"isNationalWonder": true,
+		"uniques": [
+		"Destroyed when the city is captured",
+		"Only available <if [Arsenal] is constructed in all [non-[Puppeted]] cities>",
+		"[+20]% Production when constructing [Patriot's] units [in all city]",
+		"All newly-trained [all] units [in this city] receive the [Infected Empathy] promotion",
+		"Cost increases by [30] per owned city",
+		],
+		"requiredTech": "Radar"
+	},
+	{
+		"name": "Reunion Propaganda",
+		"uniqueTo": "Reunion",
+		"replaces": "Broadcast Tower",
+		"requiredTech": "Radio",
+		"maintenance": 3,
+        "uniques": [
+            "Destroyed when the city is captured",
+            "[+15]% growth [in this city]",
+			"[-15]% Unhappiness from [Population] [in this city]"
+        ]
+	},
+	
+]
